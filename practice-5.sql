@@ -15,5 +15,4 @@
 SELECT property_type, COUNT(id)
 FROM listings
 WHERE neighborhood = "Hyde Park"
-GROUP BY property_type
-ORDER BY property_type;
+GROUP BY property_type;
